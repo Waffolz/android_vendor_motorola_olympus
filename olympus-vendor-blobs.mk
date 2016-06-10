@@ -16,10 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/hw/alsa.tegra.so:system/lib/hw/alsa.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/vendor-audio_policy.tegra.so:system/lib/hw/vendor-audio_policy.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/vendor-audio.primary.tegra.so:system/lib/hw/vendor-audio.primary.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/hw/audio_policy.vendor.tegra.so:system/lib/hw/audio_policy.vendor.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/hw/audio.primary_vendor.tegra.so:system/lib/hw/audio.primary_vendor.tegra.so \
     vendor/motorola/olympus/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/motorola/olympus/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
     vendor/motorola/olympus/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
@@ -29,8 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/olympus/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/vendor-camera.tegra.so:system/lib/hw/vendor-camera.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/hw/camera.vendor.tegra.so:system/lib/hw/camera.vendor.tegra.so \
     vendor/motorola/olympus/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
+    vendor/motorola/olympus/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
     vendor/motorola/olympus/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/motorola/olympus/proprietary/bin/akmd8975:system/bin/akmd8975 \
